@@ -1,14 +1,14 @@
 # Introduction
 
-This repo is meant to explain how javascript works. There will be numerouse files containing explanations, along with demonstrations, about a specific topic.
+This repo is meant to explain how javascript works. There will be numerous files containing explanations, along with demonstrations, about a specific topic.
 
-You are incentivised to compile and run the code. For that, its recomend installing [NodeJs](https://www.nodejs.org). After installing, you can run the files by navigating to the folder where they are located and type
+You are incentivised to compile and run the code. For that, its recommend installing [NodeJs](https://www.nodejs.org). After installing, you can run the files by navigating to the folder where they are located and type
 
-    node filename.js
+    $ node filename.js
 
 Other options would be to use an [online javascript compiler](https://repl.it/repls/LuckyCanineKestrel) or simply include the files in an HTML document
 
-    <script scr="filename.js">
+    <script src="filename.js">
 
 Open the HTML document in a browser and check the javascript console under developer tools.
 
@@ -18,7 +18,7 @@ It is intended to demonstrate the most relevant aspects of the programming langu
 
 The project does not have a timeline though, so it might be a while between updates.
 
-Comments and feedback are highly apreciated, so feel free to leave an issue, clone, etc...
+Comments and feedback are highly appreciated, so feel free to leave an issue, clone, etc...
 
 ## Where to start?
 
