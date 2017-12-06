@@ -26,9 +26,9 @@ Despite still missing a lot of essential information, in this section you will f
 
 #### Starter
 
-* [variables.js](/variables.js)
+* [variables.js](variables.js)
 * [iife.js](iife.js)
 
 #### Advanced
 
-* [prototype.js]()
+* [prototype.js](prototype.js)
