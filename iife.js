@@ -1,5 +1,5 @@
 /**********************************************************************/
-    console.log( "\n\n * Imidiatly Invoked Function Expressions * " );
+    console.log( "\n\n * Immediatly Invoked Function Expressions * " );
 /*                                                                    */
 
 ( function()
@@ -50,7 +50,6 @@ var global_variable = "Global Variable";
 
 
 
-
 /*****************************************************************/
 console.log( "\n * IIFE's can access it's father's scope * \n" );
 /*                                                               */
@@ -80,7 +79,7 @@ var grandpa = "Grandfather's Variable";
         )();
     }
 
-    // console.log( "> "child );
+    // console.log( "> "+ child );
 
     /* This won't work because child is not declared in this scope. Functions can not
      * access their children's variables. */
