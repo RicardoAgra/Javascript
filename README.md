@@ -22,7 +22,7 @@ Comments and feedback are highly appreciated, so feel free to leave an issue, cl
 
 ## Where to start?
 
-Despite still missing a lot of essential information, in this section you will find a sugested order to view the files.
+Despite still missing a lot of essential information, in this section you will find a suggested order to view the files.
 
 #### Starter
 
