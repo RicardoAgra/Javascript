@@ -2,7 +2,7 @@
         console.log("\n** Object.create **");
 /*                                                  */
 
-/* Creating an objec to be used as prototype */
+/* Creating an object to be used as prototype */
 var proto_object = {
     name : "Proto Object",
     method : function()
