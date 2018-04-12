@@ -13,13 +13,13 @@
         console.log( "\n"+ local_variable +"\n" );
 
     }
-) (); /* Close the parentisis that wrap the ( 'function(){}' ) expression, 
+)();  /* Close the parentisis that wrap the ( 'function(){}' ) expression, 
        * then invoke the function with '()' */
 
         
         // console.log( local_variable );
 
-         /* Since the variable is declared inside the IIFE statement, it can not be accessed
+        /* Since the variable is declared inside the IIFE statement, it can not be accessed
          * outside the IIFE. If you try to log the variable outside the IIFE, you will get
          * an error since the variable isn't declared there. */
 
@@ -46,7 +46,7 @@ var global_variable = "Global Variable";
 
         
     }
-) ( global_variable );
+)( global_variable );
 
 
 
@@ -56,9 +56,9 @@ console.log( "\n * IIFE's can access it's father's scope * \n" );
 
 var grandpa = "Grandfather's Variable";
 
-( function( )
+( function()
     {
-        var papa = "Father's Variable";
+        var father = "Father's Variable";
         /* Consider that all functions live ( are hosted ) inside other functions. In
          * most usual cases, that function is the global space. Other times, 
          * it can be other functions.
@@ -69,11 +69,11 @@ var grandpa = "Grandfather's Variable";
          * 
          * Notice that we can rename the arguments passed. */
 
-        ( function( )
+        ( function()
             { 
                 var child = "Child's Variable";
 
-                console.log( "> "+ papa )
+                console.log( "> "+ father )
                 console.log( "> "+ grandpa );
             }
         )();
@@ -84,4 +84,4 @@ var grandpa = "Grandfather's Variable";
     /* This won't work because child is not declared in this scope. Functions can not
      * access their children's variables. */
 
-) ( );
+)();

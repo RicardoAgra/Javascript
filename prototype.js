@@ -27,6 +27,9 @@ created_obj.name = "Created Object";
 created_obj.method();
 created_obj.agument();
 
+
+
+
 /****************************************************/
     console.log("\n** new FunctionConstructor **");
 /*                                                  */
@@ -50,6 +53,9 @@ newObj.method();
 Constructor.prototype.print = function(){ console.log( "Method on the prototype of " + this.name + "." ); }
 
 newObj.print();
+
+
+
 
 /****************************************************/
     console.log("\n** Object.setPrototypeOf **");

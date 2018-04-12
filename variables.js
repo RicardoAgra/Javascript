@@ -75,29 +75,25 @@ var NotaNumber = NaN;
 console.log( "> "+ typeof( NotaNumber ) + "\t "+ NotaNumber +"\t\t "+ isArgTrue( NotaNumber ) );
 
 
+var FUNCTION = function(){}
+console.log( "> "+ typeof( FUNCTION ) + "\t "+ FUNCTION +"\t "+ isArgTrue( FUNCTION ) );
 
 
-    /* 'undefined' is a special value for variables that were declared but
+var array = ["Array"];
+console.log( "> "+ typeof( array ) + "\t "+ array +"\t\t "+ isArgTrue( array ) );
+
+
+var object = {};
+console.log( "> "+ typeof( object ) + "\t "+ object +" "+ isArgTrue( object ) );
+
+
+var NULL = null;
+console.log( "> "+ typeof( NULL ) + "\t "+ NULL +"\t\t "+ isArgTrue( NULL ) );
+
+
+    /* 'undefined' is a special value for variables declared but
      * not initializated with a value. */
 
 var UNDEFINED;
 console.log( "> "+ typeof( UNDEFINED ) + "\t "+ UNDEFINED +"\t "+ isArgTrue( UNDEFINED ) );
 
-
-    
-
-var NULL = null;
-console.log( "> "+ typeof( NULL ) + "\t "+ NULL +"\t\t "+ isArgTrue( NULL ) );
-
-( function isNullPassedByReference( NULL )
-    {
-            console.log( "NULL was passed as " + NULL );
-
-            NULL = "new value";
-
-            console.log( "NULL was assigned as " + NULL );
-
-    }
-) ( UNDEFINED );
-
-console.log( "NULL is still " + UNDEFINED );

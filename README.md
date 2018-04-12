@@ -27,6 +27,8 @@ Despite still missing a lot of essential information, in this section you will f
 #### Starter
 
 * [variables.js](variables.js)
+* [primitives.js](primitives.js)
+* [non-primitives.js](non-primitives.js)
 * [iife.js](iife.js)
 
 #### Advanced
